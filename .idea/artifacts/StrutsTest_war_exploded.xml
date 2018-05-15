@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StrutsTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StrutsTest_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StrutsTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="struts2" />
+          <element id="library" level="module" name="JUnit4" module-name="StrutsTest" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/struts2-junit-plugin-2.3.34.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="StrutsTest/web/Web" />
+    </root>
+  </artifact>
+</component>
